@@ -26,5 +26,5 @@ jobs:
        with:
           name: test-report
           path: |
-            'playwright-report/**/*.*'
-            'test-results**/*.*'
+            playwright-report/**/*.*
+            test-results**/*.*
