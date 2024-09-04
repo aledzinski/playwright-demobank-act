@@ -26,8 +26,8 @@ jobs:
        id: playwright-cache
        with:
          path: |
-          ~/.cache/ms-playwright
-          key: ${{ runner.os }}-playwright 
+           ~/.cache/ms-playwright
+         key: ${{ runner.os }}-playwright 
      - name: Install dependencies
        run: npm ci
      - name: Install Playwright Browsers
