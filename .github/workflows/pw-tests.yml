@@ -4,10 +4,6 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  workflow_dispatch:
-  schedule:
-    # Check to generate your cron syntax: https://crontab.guru/
-    - cron: "*/5 * * * 1-5"
 
 permissions:
   contents: read
